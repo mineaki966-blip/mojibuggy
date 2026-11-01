@@ -1,7 +1,7 @@
 {
   "name": "もじバギー",
   "short_name": "もじバギー",
-  "description": "ひらがなを手書きして ゴールをめざす かきとりゲーム",
+  "description": "ひらがな・カタカナを手書きして てきを たおす かきとりゲーム",
   "lang": "ja",
   "start_url": "./",
   "scope": "./",
@@ -15,20 +15,21 @@
   "theme_color": "#BFE6FF",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "icons/maskable-512.png",
+      "src": "maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "id": "/mojibuggy/"
 }
